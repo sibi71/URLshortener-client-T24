@@ -1,0 +1,60 @@
+.short{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.short h1{
+    font-size: 50px;
+    color: rgb(255, 140, 0);
+    
+}
+.short__detall{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-bottom: 20px;
+
+}
+
+.short__link{
+    width: 100%;
+    overflow: hidden;
+}
+.short__back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: orange;
+    margin-top: 30px;
+    padding: 5px 30px ;
+    border: none;
+    border-radius: 3px;
+    color: aliceblue;
+    font-size: 15px;
+
+}
+.short__remove{
+    display: flex; 
+    flex: 1;
+    
+}
+.short__remove button{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 3px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 15px;
+}
+.short__remove button:hover{
+    background-color: rgb(255, 58, 58);
+}

@@ -1,0 +1,66 @@
+.homecard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homecard__create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 20px;
+    border: 1px solid lightgray;
+    box-shadow:5px 5px 10px -9px black;
+    margin-top: 30px;
+
+}
+.homecard__create h1{
+    font-size: 20px;
+    color:goldenrod;
+    margin-top: -10px;
+}
+.homecard__linkbtn{
+    border: none;
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 3px;
+    color: aliceblue;
+
+    
+}
+.homecard__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homecard__detalls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+}
+.homecard__morethan{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    justify-items:center;
+    gap: 15px;
+    padding:30px;
+    width: 75vw;
+}
+.homecard__morethan div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.homecard__icons{
+    font-size: 30px;
+}
+.homecard__morethan div h5{
+    font-size: 20px;
+}

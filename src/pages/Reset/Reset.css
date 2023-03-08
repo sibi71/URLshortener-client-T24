@@ -1,0 +1,47 @@
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reset h1{
+    font-size: 50px;
+    color: orange;
+}
+.reset__container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+.reset__container h1{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.reset__container form h5{
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.reset__container form input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    outline: none;
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+}
+.reset__btn{
+    border: none;
+    background-color:goldenrod;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}

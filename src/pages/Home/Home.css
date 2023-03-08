@@ -1,0 +1,60 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home h2{
+    font-size: 50px;
+    color: rgb(255, 140, 0);
+}
+.home form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 30px;
+    border: 1px solid lightgray;
+    box-shadow:5px 5px 10px -9px black;
+}
+.home form h5{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: -15px;
+}
+.home__input {
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 50%;
+}
+.home__input input{
+    background-color: transparent;
+    height: 20px;
+    padding: 10px;
+    align-items: center;
+    border: none;
+    width: 100%;
+    outline: none;
+    
+}
+.home__input button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 140, 0) ;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px ;
+    padding:15px;
+    height: 40px;
+    border: none;
+    color: aliceblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+.home__input button:hover{
+    background-color:rgb(255, 132, 0) ;
+}

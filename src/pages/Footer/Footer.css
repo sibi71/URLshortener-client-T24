@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(63, 62, 62);
+    color: aliceblue;
+    padding: 0px 20px 40px 20px ;
+    border-top:4px solid orange ;
+}
+.footer__link a{
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding:5px;
+    
+}
+.footer__link a:hover{
+    text-decoration: underline;
+}
