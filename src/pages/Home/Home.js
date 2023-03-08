@@ -33,14 +33,12 @@ const Home = () => {
         <div className='home__input'>
             <input type="test" placeholder='Enter link here' value={longUrl} onChange={(e)=>setLongUrl(e.target.value)} />
           <button onClick={shorturl}>ShortUrl</button>
-       </div>
-       <p className='home__info'>ShortURL is a free service to shorten URLs and create short links
-        Create a premium account to shorten unlimited URLs with more features for your projects</p>
+        </div>
+        <p className='home__info'>ShortURL is a free service to shorten URLs and create short links
+        Create a premium account to shorten unlimited URLs with more features for your projects
+        </p>
       </form>
-      <div>
       <Homecard />
-      </div>
-     
     </div>
   )
 }
