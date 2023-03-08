@@ -38,7 +38,7 @@ setRemove("")
                 return(
                     <div className='short__detall' key={index}>
                         <div className='short__link'>
-                        Short URL : <a href={data.longurl} target="_blank" >http://localhost:3000/{data.shorturl}</a>
+                        Short URL : <a href={data.longurl} target="_blank" >https://gentle-maamoul-45fa1c.netlify.app/{data.shorturl}</a>
                         <p>Long URL : {data.longurl} </p>
                         </div>
                         <div className='short__remove'>
